@@ -1,0 +1,53 @@
+{
+  "skcm_tcga_pan_can_atlas_2018": [
+    "TCGA-BF-A1PU-01",
+    "TCGA-3N-A9WB-06",
+    "TCGA-3N-A9WC-06",
+    "TCGA-3N-A9WD-06",
+    "TCGA-BF-A1PV-01",
+    "TCGA-BF-A1PX-01",
+    "TCGA-BF-A1PZ-01",
+    "TCGA-BF-A1Q0-01",
+    "TCGA-BF-A3DJ-01",
+    "TCGA-BF-A3DL-01",
+    "TCGA-BF-A3DM-01",
+    "TCGA-BF-A3DN-01",
+    "TCGA-BF-A5EO-01",
+    "TCGA-BF-A5EP-01",
+    "TCGA-BF-A5EQ-01"
+  ],
+  "cesc_tcga_pan_can_atlas_2018": [
+    "TCGA-2W-A8YY-01",
+    "TCGA-4J-AA1J-01",
+    "TCGA-BI-A0VR-01",
+    "TCGA-BI-A0VS-01",
+    "TCGA-BI-A20A-01",
+    "TCGA-C5-A0TN-01",
+    "TCGA-C5-A1BE-01",
+    "TCGA-C5-A1BF-01",
+    "TCGA-C5-A1BI-01",
+    "TCGA-C5-A1BJ-01",
+    "TCGA-C5-A1BK-01",
+    "TCGA-C5-A1BL-01",
+    "TCGA-C5-A1BM-01",
+    "TCGA-C5-A1BN-01",
+    "TCGA-C5-A1BQ-01"
+  ],
+  "paad_tcga_pan_can_atlas_2018": [
+    "TCGA-2J-AAB4-01",
+    "TCGA-2J-AAB1-01",
+    "TCGA-2J-AAB6-01",
+    "TCGA-2J-AAB8-01",
+    "TCGA-2J-AAB9-01",
+    "TCGA-2J-AABA-01",
+    "TCGA-2J-AABE-01",
+    "TCGA-2J-AABF-01",
+    "TCGA-2J-AABH-01",
+    "TCGA-2J-AABI-01",
+    "TCGA-2J-AABK-01",
+    "TCGA-2J-AABO-01",
+    "TCGA-2J-AABP-01",
+    "TCGA-2J-AABR-01",
+    "TCGA-2J-AABT-01"
+  ]
+}

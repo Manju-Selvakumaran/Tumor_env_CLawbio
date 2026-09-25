@@ -1,0 +1,8 @@
+name: tumor-hot-cold
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - python >= 3.11

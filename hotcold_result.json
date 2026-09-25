@@ -1,0 +1,83 @@
+[
+  {
+    "cohort": "SKCM",
+    "sample": "TCGA-BF-A1PU-01",
+    "layer1_infiltration_score": -1.131,
+    "layer1_band": "LOW",
+    "layer2_suppression_score": -1.787,
+    "layer2_band": "LOW",
+    "layer1_markers": {
+      "CD8A": -1.8861,
+      "CD4": -1.6546,
+      "FOXP3": -1.4116,
+      "CD68": -0.4054,
+      "NCAM1": -0.2716,
+      "CD19": -1.1577
+    },
+    "layer2_markers": {
+      "TIGIT": -1.789,
+      "LAG3": -2.0436,
+      "HAVCR2": -2.0318,
+      "PDCD1": -1.7378,
+      "CD274": -1.4577,
+      "IL10": -2.2178,
+      "TGFB1": -1.2175,
+      "CTLA4": -1.8027
+    },
+    "classification": "COLD - immune desert"
+  },
+  {
+    "cohort": "CESC",
+    "sample": "TCGA-2W-A8YY-01",
+    "layer1_infiltration_score": -0.168,
+    "layer1_band": "MID",
+    "layer2_suppression_score": -0.455,
+    "layer2_band": "MID",
+    "layer1_markers": {
+      "CD8A": -0.5314,
+      "CD4": 0.0716,
+      "FOXP3": -1.181,
+      "CD68": -0.3338,
+      "NCAM1": 0.1965,
+      "CD19": 0.77
+    },
+    "layer2_markers": {
+      "TIGIT": -0.3975,
+      "LAG3": -0.1768,
+      "HAVCR2": -0.1258,
+      "PDCD1": 0.2419,
+      "CD274": -0.9049,
+      "IL10": -1.2997,
+      "TGFB1": -0.2722,
+      "CTLA4": -0.7045
+    },
+    "classification": "IMMUNE-EXCLUDED / altered"
+  },
+  {
+    "cohort": "PAAD",
+    "sample": "TCGA-2J-AAB4-01",
+    "layer1_infiltration_score": 0.112,
+    "layer1_band": "MID",
+    "layer2_suppression_score": 0.081,
+    "layer2_band": "MID",
+    "layer1_markers": {
+      "CD8A": 0.3977,
+      "CD4": 0.5407,
+      "FOXP3": 0.0082,
+      "CD68": 0.1944,
+      "NCAM1": 0.6593,
+      "CD19": -1.1296
+    },
+    "layer2_markers": {
+      "TIGIT": -0.1282,
+      "LAG3": 0.465,
+      "HAVCR2": 0.3429,
+      "PDCD1": 0.5168,
+      "CD274": 0.3685,
+      "IL10": -0.7242,
+      "TGFB1": -0.3229,
+      "CTLA4": 0.1337
+    },
+    "classification": "IMMUNE-EXCLUDED / altered"
+  }
+]

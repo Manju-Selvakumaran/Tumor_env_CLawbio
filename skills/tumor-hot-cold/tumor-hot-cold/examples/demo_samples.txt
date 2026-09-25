@@ -1,0 +1,10 @@
+# study_id<TAB or ,>sample_id  — TCGA tumors with RNA-seq (cross-cancer set)
+skcm_tcga_pan_can_atlas_2018	TCGA-BF-A1PU-01
+skcm_tcga_pan_can_atlas_2018	TCGA-BF-A1PX-01
+skcm_tcga_pan_can_atlas_2018	TCGA-BF-A1Q0-01
+cesc_tcga_pan_can_atlas_2018	TCGA-C5-A1BK-01
+cesc_tcga_pan_can_atlas_2018	TCGA-C5-A1BN-01
+cesc_tcga_pan_can_atlas_2018	TCGA-2W-A8YY-01
+paad_tcga_pan_can_atlas_2018	TCGA-2J-AAB4-01
+paad_tcga_pan_can_atlas_2018	TCGA-2J-AABP-01
+paad_tcga_pan_can_atlas_2018	TCGA-2J-AABR-01

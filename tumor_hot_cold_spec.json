@@ -1,0 +1,37 @@
+{
+  "name": "tumor-hot-cold",
+  "description": "Classify TCGA tumors as hot / cold / immune-excluded from cBioPortal RNA expression z-scores across two immunology layers (immune infiltration and immunosuppression), with no bulk dataset download.",
+  "author": "ClawBio Hackathon",
+  "domain": "cancer-immunology",
+  "capabilities": [
+    "Fetch per-gene, per-sample mRNA expression z-scores from the cBioPortal public REST API (targeted queries, no bulk download)",
+    "Score Layer 1 immune infiltration (CD8A, CD4, FOXP3, CD68, NCAM1, CD19)",
+    "Score Layer 2 immunosuppression / checkpoint-exhaustion (TIGIT, LAG3, HAVCR2, PDCD1, CD274, IL10, TGFB1, CTLA4)",
+    "Combine both layers into a hot / cold / immune-excluded classification per tumor",
+    "Emit report.md, result.json and a reproducibility bundle"
+  ],
+  "trigger_keywords": [
+    "hot cold tumor",
+    "hot vs cold",
+    "immune infiltration classification",
+    "immune excluded",
+    "immunosuppression score",
+    "tumor immune phenotype",
+    "cBioPortal z-score classification"
+  ],
+  "tags": ["cancer", "immuno-oncology", "TCGA", "cBioPortal", "immune-phenotype"],
+  "dependencies": {
+    "required": ["python >= 3.11"],
+    "optional": []
+  },
+  "chaining_partners": ["xena-tcga-gene-query", "omics-target-evidence-mapper"],
+  "cli_alias": "hotcold",
+  "input_formats": [
+    {
+      "format": "cBioPortal study + sample identifiers",
+      "extension": ".txt",
+      "required_fields": "study_id, sample_id (one per line, tab or comma separated)",
+      "example": "demo_samples.txt"
+    }
+  ]
+}
